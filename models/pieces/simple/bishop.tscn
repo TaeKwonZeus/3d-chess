@@ -15,6 +15,6 @@ surfaces/0 = {
 }
 
 [node name="Bishop" type="MeshInstance"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 1.011, 0.00383282 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 1.01, 0.004 )
 mesh = SubResource( 1 )
 material/0 = null

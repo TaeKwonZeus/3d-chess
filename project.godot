@@ -8,10 +8,54 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Piece",
+"class": "Bishop",
+"language": "GDScript",
+"path": "res://scripts/pieces/bishop.gd"
+}, {
+"base": "Piece",
+"class": "King",
+"language": "GDScript",
+"path": "res://scripts/pieces/king.gd"
+}, {
+"base": "Piece",
+"class": "Pawn",
+"language": "GDScript",
+"path": "res://scripts/pieces/pawn.gd"
+}, {
+"base": "Spatial",
+"class": "Piece",
+"language": "GDScript",
+"path": "res://scripts/pieces/piece.gd"
+}, {
+"base": "Piece",
+"class": "Queen",
+"language": "GDScript",
+"path": "res://scripts/pieces/queen.gd"
+}, {
+"base": "Piece",
+"class": "Rook",
+"language": "GDScript",
+"path": "res://scripts/pieces/rook.gd"
+} ]
+_global_script_class_icons={
+"Bishop": "",
+"King": "",
+"Pawn": "",
+"Piece": "",
+"Queen": "",
+"Rook": ""
+}
+
 [application]
 
 config/name="3D Chess"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray(  )
 
 [physics]
 
